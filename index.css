@@ -1,0 +1,32 @@
+/**{
+	margin: 0;
+	padding: 0;
+}*/
+#container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #FCFCFC;
+
+}
+.logo {
+	flex: 1;
+}
+nav{
+	width: 100%;
+	background: #83B692;
+	color: white;
+	text-transform: uppercase;
+}
+ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	
+}
+li {
+	list-style: none;
+	margin-right:50px;
+}
