@@ -33,3 +33,23 @@ Once the process is done, your browser will go to a screen similar to the reposi
 So, in the example above, instead of **do-community / cloud_haiku** at the top of the page, you’ll see **your-username / cloud_haiku**, and the new URL will look like this:
 
 **https://github.com/your-username/cloud_haiku**
+
+With the repository forked, you’re ready to clone it so that you have a local working copy of the code base.
+
+#### Clone the Repository
+
+To make your own local copy of the repository you would like to contribute to, let’s first open up a terminal window.
+
+We’ll use the **git clone** command along with the URL that points to your fork of the repository.
+
+This URL will be similar to the URL above, except now it will end with **.git**. In the cloud_haiku example above, the URL will look like this:
+
+**https://github.com/your-username/cloud_haiku.git**
+
+You can alternatively copy the URL by using the green “Clone or download” button from your repository page that you just forked from the original repository page. Once you click the button, you’ll be able to copy the URL by clicking the binder button next to the URL:
+
+Once we have the URL, we’re ready to clone the repository. To do this, we’ll combine the git clone command with the repository URL from the command line in a terminal window:
+
+**$ git clone https://github.com/your-username/repository.git**
+
+Now that we have a local copy of the code, we can move on to creating a new branch on which to work with the code.
