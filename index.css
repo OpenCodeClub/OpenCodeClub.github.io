@@ -7,7 +7,7 @@ padding: 0;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: lightblue;
+	background-color: #FCFCFC;
 
 }
 .logo {
@@ -15,7 +15,7 @@ padding: 0;
 }
 nav{
 	width: 100%;
-	background: lightblue;
+	background: #83B692;
 	color: white;
 	text-transform: uppercase;
 }
