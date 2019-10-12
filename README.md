@@ -1,4 +1,9 @@
 # OpenCodeClub.github.io
+
+Website for Open Code
+
+Put together as part of an introduction to using GitHub and pull requests by students of codebar Birmingham!
+
 ## A great meetup where people can code together!
 
 ## We meet every Tuesday, from 6pm - 8.30pm.
@@ -53,3 +58,4 @@ Once we have the URL, we’re ready to clone the repository. To do this, we’ll
 **$ git clone https://github.com/your-username/repository.git**
 
 Now that we have a local copy of the code, we can move on to creating a new branch on which to work with the code.
+
