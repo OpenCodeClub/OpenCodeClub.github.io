@@ -22,7 +22,7 @@ Click on the fork button to start the forking process. Within your browser windo
 
 Once the process is done, your browser will go to a screen similar to the repository image above, except that at the top you will see your username before the repository name, and in the URL it will also say your username before the repository name.
 
-So, in the example above, instead of **dOpenCodeClub / OpenCodeClub.github.io** at the top of the page, you’ll see **your-username / OpenCodeClub.github.io**, and the new URL will look like this:
+So, in the example above, instead of **OpenCodeClub / OpenCodeClub.github.io** at the top of the page, you’ll see **your-username / OpenCodeClub.github.io**, and the new URL will look like this:
 
 **https://github.com/your-username/OpenCodeClub.github.io**
 
