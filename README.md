@@ -61,3 +61,32 @@ Once we have the URL, we’re ready to clone the repository. To do this, we’ll
 
 Now that we have a local copy of the code, we can move on to creating a new branch on which to work with the code.
 
+#### Install Jekyll
+##### Install Ruby
+###### Mac
+```
+xcode-select --install
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install ruby
+gem install --user-install bundler jekyll
+```
+###### Linux (ubuntu)
+```
+sudo apt-get install ruby-full build-essential zlib1g-dev
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+gem install jekyll bundler
+```
+######  Windows
+- Download Ruby+Devkit from https://rubyinstaller.org/downloads/
+- Follow the install setup and make sure you run the ridk install
+- Open comand prompt from the start menu
+- Install Jekyll with `gem install jekyll bundler`
+
+#### Run Jekyll
+```
+jekyll serve
+```
+Go to localhost:4000 in your browser.
