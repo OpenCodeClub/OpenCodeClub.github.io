@@ -2,6 +2,11 @@
 margin: 0;
 padding: 0;
 }*/
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+body {
+	font-family: 'Oxygen', sans-serif;
+}
+
 #container{
 	display: flex;
 	flex-direction: column;
