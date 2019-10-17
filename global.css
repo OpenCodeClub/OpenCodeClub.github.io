@@ -1,0 +1,145 @@
+#stickytop {
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 40;
+    height: 10vh;
+    width: 97%;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    padding: 0px 10px 0px 10px;
+}
+
+#stickytop h1 {
+    display: inline-block;
+    font-size: 8vh;
+    width: fit-content;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+    bottom: -5vh;
+    font-family: 'Comfortaa', cursive;
+}
+
+#navigations {
+    width: fit-content;
+    float: right;
+    height: 100%;
+}
+
+#navigations a {
+    font-family: 'Kaushan Script', cursive;
+    float: left;
+    height: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+.mainbtn i {
+    display: none;
+    transition: 1s;
+}
+
+.mainbtn:hover i {
+    display: inline-block;
+    animation: shakerot 2s;
+}
+
+.mainbtn:hover {
+    background-color: #dd4b39;
+    color: white;
+    transition: 1s;
+    animation: shakerot 2s;
+    border: solid thin white;
+}
+
+.mainbtn {
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+    background-color: white;
+    color: #dd4b39;
+    border: solid thin #dd4b39;
+    height: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    ;
+}
+
+footer {
+    width: 90vw;
+    bottom: 5px;
+    position: absolute;
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-twitter:hover {
+    color: #00aced;
+}
+
+.fa-google-plus:hover {
+    color: #dd4b39;
+}
+
+.fa-reddit-alien:hover {
+    color: #FF4301;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 50px;
+}
