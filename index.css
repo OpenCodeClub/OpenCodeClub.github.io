@@ -24,14 +24,18 @@ nav{
 	color: white;
 	text-transform: uppercase;
 }
-ul {
+nav ul {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 
 
 }
-li {
+nav li {
 	list-style: none;
 	margin-right:50px;
+}
+
+.about-list {
+	line-height: 200%;
 }
