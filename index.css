@@ -6,7 +6,6 @@ padding: 0;
 body {
 	font-family: 'Oxygen', sans-serif, serif;
 }
-
 #container{
 	display: flex;
 	flex-direction: column;
@@ -38,4 +37,11 @@ nav li {
 
 .about-list {
 	line-height: 200%;
+}
+li {
+	display: flex;
+	justify-content: center;
+#para {
+	display: flex;
+	justify-content: space-around;
 }
