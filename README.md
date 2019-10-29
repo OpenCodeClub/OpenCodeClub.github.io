@@ -4,6 +4,7 @@ Website for Open Code - [click for live version](https://opencodeclub.github.io/
 
 Put together as part of an introduction to using GitHub and pull requests by students of codebar Birmingham!
 
+
 ## A great meetup where people can code together!
 
 ## We meet every Tuesday, from 6pm - 8.30pm.
@@ -90,3 +91,4 @@ gem install jekyll bundler
 jekyll serve
 ```
 Go to localhost:4000 in your browser.
+

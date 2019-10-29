@@ -1,17 +1,18 @@
-	width:90%;
-	margin:0 auto;
+/**{
+margin: 0;
+padding: 0;
+}*/
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+body {
+	font-family: 'Oxygen', sans-serif, serif;
 }
-.container{
-	display:grid;
-	grid-template-columns:repeat(12, 1fr) ;
-	grid-template-rows: 1fr auto;
- grid-row-gap: 50px;
-}
-h1{
-    margin: 0;
-    font-weight: 400;
-	grid-column: 1/6;
-	align-self: center;
+#container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #FCFCFC;
+
 }
 header{
     color: #632695;
@@ -23,33 +24,25 @@ header{
     align-items: center;
 	
 }
-.right{
-	grid-column: 7/-1;
-	align-self: center;
-}
-img{
-	border: 1px solid transparent;
-	border-radius: 306px;
-	max-width: 85%;
-	opacity: 0.5;
-}
-button{
-	width: 75%;
-    height: 50px;
-    border: 1px solid transparent;
-    border-radius: 15px;
-	background: #FFCC00;
-	font-size: 1rem;
-}
-
-ul {
+nav ul {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 
 
 }
-li {
+nav li {
 	list-style: none;
 	margin-right:50px;
+}
+
+.about-list {
+	line-height: 200%;
+}
+li {
+	display: flex;
+	justify-content: center;
+#para {
+	display: flex;
+	justify-content: space-around;
 }
