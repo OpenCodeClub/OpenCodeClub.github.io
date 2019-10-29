@@ -2,6 +2,10 @@
 margin: 0;
 padding: 0;
 }*/
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+body {
+	font-family: 'Oxygen', sans-serif, serif;
+}
 #container{
 	display: flex;
 	flex-direction: column;
@@ -19,14 +23,25 @@ nav{
 	color: white;
 	text-transform: uppercase;
 }
-ul {
+nav ul {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 
 
 }
-li {
+nav li {
 	list-style: none;
 	margin-right:50px;
+}
+
+.about-list {
+	line-height: 200%;
+}
+li {
+	display: flex;
+	justify-content: center;
+#para {
+	display: flex;
+	justify-content: space-around;
 }
