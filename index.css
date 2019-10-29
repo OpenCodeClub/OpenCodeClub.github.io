@@ -1,4 +1,3 @@
-body{
 	width:90%;
 	margin:0 auto;
 }
@@ -20,26 +19,6 @@ header{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
-nav{
-    background: #632695;
-    grid-column: 6/-1;
-    justify-content: space-between;
-}
-nav ul{
-	list-style: none;
-    padding: 0;
-    display: flex;
-	justify-content: space-around;
-	align-content: center;
-	color: white;
-	text-transform: uppercase;
-}
-p{
-	font-size:2em;
-}
-.left{
-	grid-column: 1/5;
-    display: flex;
     flex-direction: column;
     align-items: center;
 	
@@ -61,4 +40,16 @@ button{
     border-radius: 15px;
 	background: #FFCC00;
 	font-size: 1rem;
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+li {
+	list-style: none;
+	margin-right:50px;
 }
